@@ -1,19 +1,40 @@
 $(function() {
 
-// Smooth Scroll
+    // Smooth Scroll
 
-$('[data-scroll]').on('click', function(event) {
-    event.preventDefault();
+    $('[data-scroll]').on('click', function(event) {
+        event.preventDefault();
 
-    var $this = $(this);
-    var blockId = $this.data('scroll');
-    var blockOffset = $(blockId).offset().top;
+        var $this = $(this);
+        var blockId = $this.data('scroll');
+        var blockOffset = $(blockId).offset().top;
 
-    $('html, body').animate({
-        scrollTop: blockOffset
-    }, 500);
+        $('html, body').animate({
+            scrollTop: blockOffset
+        }, 500);
 
-});
+    });
+
+    // To Begin Invisible
+
+    var toBegin = $('#to_begin');
+    var introH = $('#intro').innerHeight();
+    var scrollOffset = $(window).scrollTop();
+
+    checkScroll(scrollOffset);
+    $(window).on('scroll', function() {
+        scrollOffset = $(this).scrollTop();
+        checkScroll(scrollOffset);
+    });
+
+    function checkScroll(scrollOffset) {
+        if ( scrollOffset >= introH*0.2 ) {
+            toBegin.removeClass('invisible');
+        }
+        else {
+            toBegin.addClass('invisible');
+        }
+    }
 
 
 
