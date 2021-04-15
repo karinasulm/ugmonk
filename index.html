@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/fontawesome/all.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ugmonk</title>
+</head>
+<body>
+<!-- header -->
+<header class="header" id="header"></header>
+    <div class="header__special">
+        <div class="header__proposal">📦 Final Stock - Up to 50% off select items</div>
+        <a href="#" class="header__btn">Shop the Sale</a>
+    </div>
+    <div class="header__inner">
+        <a href="#"><img src="img/logo.svg" alt="Logo" class="header__logo"></a>
+        <nav class="nav">
+            <a href="#" class="nav__link">Men</a>
+            <a href="#" class="nav__link">Women</a>
+            <a href="#" class="nav__link">Objects</a>
+            <a href="#" class="nav__link">Analog</a>
+        </nav>
+        <div class="widgets">
+            <div class="widgets__item">
+                <a href="#" class="widgets__link">Journal</a>
+                <a href="#" class="widgets__link" id="search">Search</a>
+            </div>
+            <div class="search invisible" id="search_input">
+                <input class="search__input" type="text">
+                <img class="search__icon" id="search_btn" src="img/search-solid.svg" alt="">
+            </div>
+            <div class="widgets__item">
+                <a href="#" class="widgets__link" id="login">Login</a>
+                <a href="#" class="widgets__link"><img src="img/cart.svg" alt="Cart"></a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- window -->
+<section class="window invisible" id="window_login">
+    <form action="" class="window__form">
+        <div class="window__close" id="window__close"></div>
+        <label class="window__label">
+            <span>E-mail</span>
+            <input class="window__input" type="email">
+        </label>
+        <label class="window__label">
+            <span>Password</span>
+            <input class="window__input" type="password">
+        </label>
+        <button class="window__btn">Login</button>
+        <a href="#" class="window__link">Forgot your password?</a>
+    </form>
+</section>
+<!-- to-begin -->
+<div class="to-begin" data-scroll="header">
+    <div class="to-begin__icon"></div>
+</div>
+<!-- intro -->
+<section class="intro">
+    <div class="wrapper">
+        <div class="intro__inner">
+            <div class="intro__title">Analog: The Simplest Productivity System</div>
+            <a class="intro__btn">Learn more</a>
+        </div>
+    </div>
+</section>
+<!-- arrivals -->
+<section class="arrivals">
+    <div class="wrapper">
+        <div class="arrivals__inner">
+            <nav class="arrivals__nav">
+                <a href="#" class="arrivals__link active" id="new_arrivals">New Arrivals</a>
+                <a href="#" class="arrivals__link" id="final_stock">Final Stock</a>
+                <a href="#" class="arrivals__link" id="best_sellers">Best Sellers</a>
+                <a href="#" class="arrivals__link" id="clothing">Clothing</a>
+                <a href="#" class="arrivals__link" id="objects">Objects</a>
+                <a href="#" class="arrivals__link" id="face_masks">Face Masks</a>
+            </nav>
+            <div class="arrivals__shop">
+                <div class="arrivals__item objects best-sellers">
+                    <a href="#"><img src="img/shop/1.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Preorder - Analog Starter Kit</a>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        <span class="arrivals__price-non-actual">$98.00</span>
+                        <span class="arrivals__price-sale">$79.00</span>
+                    </h3>
+                </div>
+                <div class="arrivals__item objects">
+                    <a href="#"><img src="img/shop/2.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Preorder - Analog Cards</a>
+                        <span class="arrivals__subtitle">(3-Pack)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $39.00
+                    </h3>
+                </div>
+                <div class="arrivals__item objects">
+                    <a href="#"><img src="img/shop/3.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Preorder - Analog Travel Case</a>
+                        <span class="arrivals__subtitle">(Gray)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $32.00
+                    </h3>
+                </div>
+                <div class="arrivals__item objects">
+                    <a href="#"><img src="img/shop/4.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Preorder - Analog Wood Card Holder</a>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $59.00
+                    </h3>
+                </div>
+                <div class="arrivals__item clothing best-sellers">
+                    <a href="#"><img src="img/shop/5.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Modus Operandi - Artist Collab</a>
+                        <span class="arrivals__subtitle">(3 Pack)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        <span class="arrivals__price-non-actual">$126.00</span>
+                        <span class="arrivals__price-sale">$120.00</span>
+                    </h3>
+                </div>
+                <div class="arrivals__item clothing">
+                    <a href="#"><img src="img/shop/6.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Modus Operandi 01 - Artist Collab</a>
+                        <span class="arrivals__subtitle">(White)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $42.00
+                    </h3>
+                </div>
+                <div class="arrivals__item clothing">
+                    <a href="#"><img src="img/shop/7.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Modus Operandi 03 - Artist Collab</a>
+                        <span class="arrivals__subtitle">(Navy)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $42.00
+                    </h3>
+                </div>
+                <div class="arrivals__item clothing">
+                    <a href="#"><img src="img/shop/8.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Modus Operandi 02 - Artist Collab</a>
+                        <span class="arrivals__subtitle">(Charcoal)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $42.00
+                    </h3>
+                </div>
+                <div class="arrivals__item objects">
+                    <a href="#"><img src="img/shop/9.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Kinto Travel Tumbler</a>
+                        <span class="arrivals__subtitle">(Black)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $35.00
+                    </h3>
+                </div>
+                <div class="arrivals__item objects">
+                    <a href="#"><img src="img/shop/10.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Circular</a>
+                        <span class="arrivals__subtitle">(Sienna)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $36.00
+                    </h3>
+                </div>
+                <div class="arrivals__item objects">
+                    <a href="#"><img src="img/shop/11.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Facet</a>
+                        <span class="arrivals__subtitle">(Black)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $36.00
+                    </h3>
+                </div>
+                <div class="arrivals__item objects">
+                    <a href="#"><img src="img/shop/12.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Rain</a>
+                        <span class="arrivals__subtitle">(Deep Forest)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $36.00
+                    </h3>
+                </div>
+                <div class="arrivals__item objects">
+                    <a href="#"><img src="img/shop/13.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Hollow</a>
+                        <span class="arrivals__subtitle">(Port)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $36.00
+                    </h3>
+                </div>
+                <div class="arrivals__item face-masks">
+                    <a href="#"><img src="img/shop/14.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Face Mask</a>
+                        <span class="arrivals__subtitle">(Black)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $10.00
+                    </h3>
+                </div>
+                <div class="arrivals__item  objects">
+                    <a href="#"><img src="img/shop/15.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Ripple Effect</a>
+                        <span class="arrivals__subtitle">(Charcoal Triblend)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $36.00
+                    </h3>
+                </div>
+                <div class="arrivals__item objects">
+                    <a href="#"><img src="img/shop/16.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Premium Leather Mousepad XL</a>
+                        <span class="arrivals__subtitle">(Ugmonk Logo - Natural)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $52.00
+                    </h3>
+                </div>
+                <div class="arrivals__item clothing">
+                    <a href="#"><img src="img/shop/17.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Shoes Like Pottery</a>
+                        <span class="arrivals__subtitle">(High Top - Natural)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $165.00
+                    </h3>
+                </div>
+                <div class="arrivals__item clothing best-sellers">
+                    <a href="#"><img src="img/shop/18.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Men's Essential Tee</a>
+                        <span class="arrivals__subtitle">(Starter Kit - 3-Pack)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        <span class="arrivals__price-non-actual">$96.00</span>
+                        <span class="arrivals__price-sale">$89.00</span>
+                    </h3>
+                </div>
+                <div class="arrivals__item objects">
+                    <a href="#"><img src="img/shop/19.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Leather Coasters</a>
+                        <span class="arrivals__subtitle">(Enjoy the Journey - Set of 2 - Natural)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        $18.00
+                    </h3>
+                </div>
+                <div class="arrivals__item objects final-stock">
+                    <a href="#"><img src="img/shop/20.jpg" class="arrivals__img"></a>
+                    <h2 class="arrivals__title">
+                        <a href="#">Gather Basic Set</a>
+                        <span class="arrivals__subtitle">(Walnut)</span>
+                    </h2>
+                    <h3 class="arrivals__price">
+                        SOLD OUT
+                    </h3>
+                </div>
+            </div>
+            <a href="#" class="arrivals__btn">Shop New Arrivals</a>
+        </div>
+    </div>
+</section>
+<!-- banner -->
+<section class="banner">
+    <div class="wrapper">
+        <div class="banner__inner">
+            <div class="banner__item banner__item--info">
+                <div class="banner__info">
+                    <h3 class="banner__title">
+                        Final Stock - Up to 50% Off
+                    </h3>
+                    <a href="#" class="banner__btn banner__btn--shop-the-sale">
+                        Shop the sale
+                    </a>
+                </div>
+            </div>
+            <div class="banner__item banner__item--img">
+                <img src="img/banner-1.png" alt="" class="banner__img">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- catalog -->
+<section class="catalog">
+    <div class="wrapper">
+        <div class="catalog__inner">
+            <div class="catalog__text">
+                Our mission is to create simple, beautiful objects that combine form and function.
+            </div>
+            <div class="catalog__categories">
+                <div class="catalog__item catalog__item--small">
+                    <a href="#">
+                        <img src="img/catalog/1.jpg" class="catalog__img catalog__img--small">
+                    </a>
+                    <a href="#" class="catalog__btn">Shop Men</a>
+                </div>
+                <div class="catalog__item catalog__item--small">
+                    <a href="#">
+                        <img src="img/catalog/2.jpg" class="catalog__img catalog__img--small">
+                    </a>
+                    <a href="#" class="catalog__btn">Shop Women</a>
+                </div>
+                <div class="catalog__item catalog__item--big">
+                    <a href="#">
+                        <img src="img/catalog/3.jpg" class="catalog__img catalog__img--big">
+                    </a>
+                    <a href="#" class="catalog__btn">Shop Objects</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- banner -->
+<section class="banner">
+    <div class="wrapper">
+        <div class="banner__inner">
+            <div class="banner__item banner__item--info">
+                <div class="banner__info">
+                    <h3 class="banner__title">
+                        Gather
+                    </h3>
+                    <p class="banner__text">
+                        The minimal, modular desk organizer that cuts through the clutter
+                    </p>
+                    <a href="#" class="banner__btn">
+                        Shop Gather
+                    </a>
+                </div>
+            </div>
+            <div class="banner__item banner__item--img">
+                <img src="img/banner-2.jpg" alt="" class="banner__img">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog">
+    <div class="wrapper">
+        <div class="blog__inner">
+            <h3 class="blog__title">
+                A design studio in Downingtown, PA, creating and curating products that combine form & function
+            </h3>
+            <a href="#" class="blog__link">
+                Read Our Story
+            </a>
+        </div>
+    </div>
+</section>
+<section class="subscribe">
+    <div class="wrapper">
+        <div class="subscribe__inner">
+            <h3 class="subscribe__title">
+                Stay in the loops
+            </h3>
+            <p class="subscribe__text">
+                Be the first to know when new products drop and get behind-the-scenes content straight from Ugmonk’s founder.
+            </p>
+            <form action="" class="subscribe__form">
+                <input type="text" placeholder="Enter your email" class="subscribe__input">
+                <button class="subscribe__btn">→</button>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__inner">
+            <div class="footer__links">
+                <div class="footer__item">
+                    <a href="#" class="footer__link">Customer Service</a>
+                    <a href="#" class="footer__link">Help / FAQ</a>
+                    <a href="#" class="footer__link">Returns & Exchanges</a>
+                    <a href="#" class="footer__link">Sizing</a>
+                    <a href="#" class="footer__link">Gift Cards</a>
+                    <a href="#" class="footer__link">Contact Us</a>
+                </div>
+                <div class="footer__item">
+                    <a href="#" class="footer__link">About</a>
+                    <a href="#" class="footer__link">Our Story</a>
+                    <a href="#" class="footer__link">Shop</a>
+                    <a href="#" class="footer__link">Journal</a>
+                    <a href="#" class="footer__link">About Our Tees</a>
+                    <a href="#" class="footer__link">Reviews</a>
+                </div>
+            </div>
+            <div class="footer__info">
+                <p class="footer__text">© Ugmonk 2021</p>
+                <p class="footer__text">All images and content may not be used without permission</p>
+                <div class="footer__social social">
+                    <a href="#" class="social__link">
+                        <img class="social__img" src="img/social/instagram-brands.svg" alt="">
+                    </a>
+                    <a href="#" class="social__link">
+                        <img class="social__img" src="img/social/twitter-brands.svg" alt="">
+                    </a>
+                    <a href="#" class="social__link">
+                        <img class="social__img" src="img/social/facebook-square-brands.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
