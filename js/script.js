@@ -36,7 +36,7 @@ $(function() {
         }
     }
 
-
+    // Buttons
 
     $('#login').on('click', function(event) {
         event.preventDefault();
