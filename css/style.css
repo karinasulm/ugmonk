@@ -40,6 +40,7 @@ body {
   }
 }
 .to-begin {
+  display: block;
   position: fixed;
   width: 40px;
   height: 40px;
@@ -49,6 +50,9 @@ body {
   left: 20px;
   bottom: 20px;
   z-index: 100;
+}
+.to-begin.invisible {
+  display: none;
 }
 .to-begin__icon {
   display: block;
